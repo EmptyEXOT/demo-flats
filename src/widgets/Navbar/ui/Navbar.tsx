@@ -40,7 +40,7 @@ export const Navbar = () => {
                                 spacing={2}
                             >
                                 <AppImg alt={'logo'} src={Logo} quality={100}></AppImg>
-                                <Typography  variant="h4" component="div">
+                                <Typography color={'white'} variant="h4" component="div">
                                     WUNDERBEER
                                 </Typography>
                             </Stack>
