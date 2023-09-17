@@ -1,12 +1,11 @@
 import {Stack} from "@mui/material";
+import {Carousel} from "@/widgets/Carousel/ui/Carousel";
 
 export default function Home() {
     return (
         <main>
             <div>
-                <Stack sx={{height: '100vh'}}>
-
-                </Stack>
+                <Carousel />
             </div>
         </main>
     )
